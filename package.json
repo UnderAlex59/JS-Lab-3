@@ -1,0 +1,22 @@
+{
+  "name": "js-lab-3-zverev",
+  "version": "1.0.0",
+  "description": "simple java-script task",
+  "main": "index.js",
+  "scripts": {
+    "test": "sudo -rm -rf)))",
+    "task-1": "node index.js",
+    "task-2": "node rightString.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnderAlex59/JS-Lab-3.git"
+  },
+  "author": "zverev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UnderAlex59/JS-Lab-3/issues"
+  },
+  "homepage": "https://github.com/UnderAlex59/JS-Lab-3#readme"
+}
