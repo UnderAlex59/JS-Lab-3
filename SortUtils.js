@@ -3,7 +3,7 @@
 //  Если Первый элемент больше второго, то возвращает положительное число
 //  Если первый элемент меньше второго, то отрицательное
 //  Если равны, то 0
-const bubleSort = (original_array, compareFunc) => {
+export const bubleSort = (original_array, compareFunc) => {
     const array = original_array.slice()
     const len = array.length
     let current

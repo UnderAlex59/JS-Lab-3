@@ -7,7 +7,6 @@
     "test": "sudo -rm -rf)))",
     "task-1": "node index.js",
     "task-2": "node rightString.js"
-
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,4 @@
-import {numberArrayBubleSortAsk} from "./sortUtils.js";
+import {bubleSort} from "./sortUtils.js";
 
 //  Требования к функции compareFunc(x, y)
 //  Принимает два ргумента, которые нужно сравнить
@@ -15,7 +15,7 @@ const binarySearch = (targer, original_array, compareFunc) => {
         console.log("Тип искомого элемента не совпадает с типом элементов массива")
         return -1
     }
-    const array = numberArrayBubleSortAsk(original_array.slice())
+    const array = bubleSort(original_array.slice(), compareFunc)
     let start = 0
     let end = array.length - 1
     let center
